@@ -1,0 +1,30 @@
+@import 'src/styles/variables';
+@import 'src/styles/mixins';
+
+
+.create-project-container {
+  @include form;
+
+  .create-project-btn {
+    margin-left: 160px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+
+  .create-project-container {
+    width: 100%;
+    left: 0;
+    top: 100px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+
+  .create-project-container {
+
+    .create-project-btn {
+      margin-left: 0;
+    }
+  }
+}

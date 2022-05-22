@@ -1,0 +1,11 @@
+.completed-task-container {
+  opacity: 0.7;
+
+  &:hover {
+    background-color: #ffffff !important;
+
+    .task-title {
+      color: unset !important;
+    }
+  }
+}
